@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="functions.js"></script>
+	</head>
+	
+	<body>
+		<h1>Student Assignment Grades</h1>
+		<table id="myTable" class="myTable"contenteditable>
+			<thead>
+				<tr>
+					<th contenteditable>Student Name</th>
+					<th contenteditable>Student Number</th>
+					<th contenteditable>Assignment 1</th>
+					<th contenteditable>Final Grade</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td onclick="test()" type="radio">Student 1</td>
+					<td contenteditable>12340000</td>
+					<td contenteditable class="grades">-</td>
+					<td contenteditable class="grades">-</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="btnAlign">
+			<button class="btn"  id="btnTopRow" onclick="avgFunction()">Calculate average</button>
+		</div>
+		<div class="btnAlign">
+			<button class="btn" id = "btnMidlleRow"onclick="addRow()">Add Row</button>
+			<button class="btn" id="btnMiddleRow" onclick="addColumn()">Add Column</button>
+		</div>
+	</body>
+</html>

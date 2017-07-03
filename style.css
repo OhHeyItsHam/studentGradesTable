@@ -1,0 +1,100 @@
+h1{
+  text-align:center;
+  text-decoration: underline;
+  font-family:"Josefin Sans";
+}
+
+td:nth-child(2n+1){
+  text-align:right; 
+}
+
+td:nth-child(2n+2){
+  text-align:right; 
+}
+
+table td:nth-child(1){
+  text-align:left; 
+}
+
+table td:nth-child(2){
+  text-align:left; 
+}
+
+table {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 1px;
+  border-color: #a6df20;
+  border-style: solid;
+  color: #000000;
+  font-family: sans-serif;
+
+}
+
+td, th {
+  border-width: 1px;
+  border-color: #a6df20;
+  border-style: solid;
+  padding: 3px;
+}
+
+thead {
+  background-color: #a6df20;
+  text-align:center;
+  font-family:"Josefin Sans";
+}
+
+.btnAlign{
+  margin-top: 10px;
+  text-align:center
+  
+}
+
+.btn {
+  background:  #a6df20;
+  font-family: "Josefin Sans";
+  color: black;
+  font-weight:bold;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #F6FB4C;
+  text-decoration: none;
+}
+
+.Deletebtn {
+  background: #FF8E9F;
+  font-family: "Josefin Sans";
+  color: black;
+  font-weight:bold;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.grades {
+    text-align: right;
+}
+.heading {
+    font-weight: bold;
+    text-align: center;
+}
+
+#btnTopRow{
+    width: 240px;
+    margin-bottom: 0px;
+}
+
+#btnMidlleRow{
+    width: 120px;
+    
+}
+
+#btnBottomRow{
+    width: 120px;
+    
+}
